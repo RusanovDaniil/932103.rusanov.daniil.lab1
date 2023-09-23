@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <base href="https://intime.tsu.ru/schedule/group/66fe82cb-9a89-11eb-812c-005056bc52bb?name=932101#endDate=2023-09-02T16:59:59.999Z&startDate=2023-08-27T17:00:00.000Z">
+            <meta charset="utf-8">
+            <title>Web lab1</title>
+            <style>
+                div{
+                    color:white;
+                }
+                #greenBlock{
+                    background-color: green;
+                    width: 100%;
+                    height: 40px;
+                }
+                #blueBlock{
+                    background-color: blue;
+                    width: 30%;
+                    height: 700px;
+                    margin-left: 35%;
+                    
+                }
+                #blueBlockto{
+                    background-color: blue;
+                    width: 100px;
+                    height: 100px;
+                    border: 4px solid white;
+                    border-radius: 15px 0px 20px 0px;
+                    float: left;
+                    margin: 0px 20px 20px 0px;
+                    
+                }
+                div.inner{
+                    text-align: center;
+                    padding-top: 10px;
+                }
+                div.arc{
+                    font-family: Arial;
+                    font-size: 18px;
+                    padding-left: 30px;
+                    padding-top: 1px;
+                    padding-right: 30px;
+                    float: right;
+                }
+                td{
+                    width: 40px;
+                    height: 30px;
+                    border: solid 1px white;
+                    text-align: center;
+                }
+    
+            </style>
+        </head>
+        <body>
+            <div id="greenBlock"><font face="Courier"><div class="inner">Hello, Header!</div></font></div>
+            <div id="blueBlock">
+                <div class="arc">
+                    <h1>Hello, content!</h1>
+                    <div id="blueBlockto"></div>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <div style="line-height: 0.5;">
+                        <a href="newpage.html"><font color= red";><p align="center"><u>www.csd.tsu.ru</u></p></font></a>
+                        <h2><span style="color:red;">Here </span> is the list:</h2>
+                        <div style="line-height: 1.5;">
+                                <ul>
+                                    <li>Value 1</li>
+                                    <li><font color= "Aqua";>V a l u e  2</font></li>
+                                    <li>Value 3</li>
+                                </ul>
+                        </div>         
+                    </div>    
+                    <table align="right">
+                        <tr>
+                            <td rowspan="2" style="background-color:green;">1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td colspan="2" style="background-color: red;">7</td>
+                        </tr>
+                    </table>
+                        <div style="line-height: 0.6;">
+                            <h3>Here are some visual styles:</h3>
+                            <p><i>Italic</i></p>
+                            <p><b>Bold</b></p>
+                            <p><u>UnderLined</u></p>
+                            <img src="C:\Users\Danil\AppData\Local\Temp\Temp6f961eb3-e7a7-4618-ba86-bc92a852bd68_Web - Лабораторная работа №1.1.zip\images.png" alt="Like" align="right" />  
+                            <br>
+                            <p><del>Line through</del></p>
+                        </div>
+                </div>
+                    
+
+
+
+            </div>
+            <div id="greenBlock"><font face="Arial"><div class="inner"><b>Hello, Footer!</b></div></font></div>
+        </body>
+    </html>
